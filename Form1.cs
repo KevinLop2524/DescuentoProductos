@@ -41,15 +41,15 @@ namespace CalcularDescuento
                 switch (tipo_producto)
                 {
                     case "Tecnología":
-                        decimal resultado = (precio * 0.10m);
+                        decimal resultado = (10 * precio)/100;
                         MessageBox.Show($"El precio total con el descuento es de {resultado:C}$");
                         break;
                     case "Alimento":
-                        decimal resultado2 = (precio * 0.2m);
+                        decimal resultado2 = (2 * precio )/100;
                         MessageBox.Show($"El precio total con el descuento es de {resultado2:C}$");
                         break;
                     case "General":
-                        decimal resultado3 = (precio * 0.5m);
+                        decimal resultado3 = (5 * precio )/100;
                         MessageBox.Show($"El precio total con el descuento es de {resultado3:C}$");
                         break;
 
